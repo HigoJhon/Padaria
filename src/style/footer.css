@@ -1,8 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 footer {
-    background-color: '#f0f0f0';
-    padding: '20px';
-    text-align: 'center';
-    position: 'fixed';
-    bottom: '0';
-    width: '100%';
+    display: flex;
+    justify-content: space-around;
+    background-color: #615555;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.div-devs,
+.div-contatos,
+.div-redes-sociais {
+  flex: 1; /* Cada div ocupa a mesma largura disponível */
+  margin: 0 10px; /* Adiciona algum espaçamento entre as divs */
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
 }
