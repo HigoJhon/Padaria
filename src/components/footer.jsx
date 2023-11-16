@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import "../styles/footer.css";
+import "../style/footer.css";
 
 const footer = () => {
     return (
