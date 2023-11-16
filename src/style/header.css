@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Evita problemas de largura com padding */
+}
+
+header {
+    background-color: #b28653;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+}
+
+.logo-img {
+    width: 200;
+    height: 200px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-menu {
+    margin: 5px 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.item-menu:hover {
+    background-color: #eee;
+    color: #b28653;
+    cursor: pointer;
+    border: #eee 1px solid;
+    border-radius: 5px;
+    padding: 9px 19px;
+}
