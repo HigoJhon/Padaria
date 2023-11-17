@@ -25,3 +25,36 @@ main {
     object-fit: cover;
 }
 
+
+/* CSS dos Paes co informações  */
+
+
+.inf-pao {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.inf-pao img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.inf-pao div {
+    flex-grow: 1; /* Ocupa o espaço restante no contêiner */
+    margin-left: 10px; /* Adiciona espaço à esquerda da div */
+}
+
+/* Adicione uma media query para ajustar o layout em telas menores */
+@media (max-width: 768px) {
+    .inf-pao {
+        flex-direction: column; /* Altera para layout de coluna em telas menores */
+        align-items: center; /* Centraliza os itens quando estão empilhados verticalmente */
+    }
+
+    .inf-pao div {
+        margin-left: 0; /* Remove a margem à esquerda na visualização de coluna */
+        margin-top: 10px; /* Adiciona espaço acima da div quando estão empilhadas verticalmente */
+    }
+}
