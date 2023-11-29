@@ -1,0 +1,60 @@
+/* Reset de estilos para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d8cdc1;;
+}
+
+main {
+    margin: 0 10%;
+}
+
+.img-paes {
+    width: 100%;
+    height: 200px;
+    overflow: hidden; /* Pode ajudar a cortar qualquer conteúdo que ultrapasse a altura da div */
+}
+
+.img-paes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* CSS dos Paes co informações  */
+
+
+.div-inf {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.div-inf img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.div-inf div {
+    flex-grow: 1; /* Ocupa o espaço restante no contêiner */
+    margin-left: 10px; /* Adiciona espaço à esquerda da div */
+}
+
+/* Adicione uma media query para ajustar o layout em telas menores */
+@media (max-width: 768px) {
+    .div-inf {
+        flex-direction: column; /* Altera para layout de coluna em telas menores */
+        align-items: center; /* Centraliza os itens quando estão empilhados verticalmente */
+    }
+
+    .div-inf div {
+        margin-left: 0; /* Remove a margem à esquerda na visualização de coluna */
+        margin-top: 10px; /* Adiciona espaço acima da div quando estão empilhadas verticalmente */
+    }
+}
