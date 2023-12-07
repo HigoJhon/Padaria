@@ -9,8 +9,6 @@ footer {
     justify-content: space-around;
     background-color: #615555;
     padding: 20px;
-    text-align: center;
-    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
@@ -19,7 +17,8 @@ footer {
 .div-contatos,
 .div-redes-sociais {
     flex: 1;
-    margin: 0 10px;
+    margin: 0 0 0 10%;
+    text-align: center;
 }
 
 a {
@@ -37,6 +36,6 @@ a {
     .div-contatos,
     .div-redes-sociais {
         flex: none;
-        margin: 10px 0;
+        margin: 20px 0;
     }
 }

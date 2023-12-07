@@ -1,10 +1,11 @@
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import Home from './pages/home';
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={ <Home />  } />
+      <Route path="/" element={<Navigate to="/Padaria" />} />
+      <Route path="/Padaria" element={ <Home />  } />
     </Routes>
   )
 }
