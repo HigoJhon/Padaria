@@ -1,4 +1,4 @@
-## :baguette_bread: Padaraia :baguette_bread:
+# Padaraia
 
 ## Índice
 
