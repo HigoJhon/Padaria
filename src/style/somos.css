@@ -1,0 +1,43 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .div-somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bakery-house {
+    color: rgb(170, 118, 59);
+    font-size: 4em;
+    margin-bottom: 10px;
+  }
+  
+  .p-somos {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.5em;
+  }
+  
+  .img-somos {
+    width: 100%;
+    max-width: 80% !important; /* Adicionei !important para garantir a prioridade */
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para telas menores, tornando a página responsiva */
+  @media screen and (max-width: 600px) {
+    .img-somos {
+      width: 100%;
+      max-width: 100% !important; /* Adicionei !important para garantir a prioridade */
+      margin-bottom: 10px;
+    }
+  }
+  
