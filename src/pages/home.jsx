@@ -3,6 +3,7 @@ import Footer from '../components/footer';
 import Inicial from '../components/inicial';
 import Somos from '../components/somos';
 import Unidade from '../components/unidades';
+import Contato from '../components/contato';
 import '../style/home.css';
 import { useState } from 'react';
 
@@ -23,6 +24,11 @@ const Home = () => {
         if (page === 'unidades') {
             return (
                 <Unidade />
+            );
+        }
+        if (page === 'fale-conosco') {
+            return (
+                <Contato />
             );
         }
     };
