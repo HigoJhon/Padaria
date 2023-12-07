@@ -37,15 +37,9 @@ const Header = ({ setPage }) => {
                 <span className='item-menu' onClick={() => handleClickMenu("unidades")}>
                     UNIDADES
                 </span>
-                <span className='item-menu' onClick={() => handleClickMenu("produtos")}>
-                    PRODUTOS
-                </span>
                 <span className='item-menu' onClick={() => handleClickMenu("fale-conosco")}>
                     FALE CONOSCO
                 </span>
-            </div>
-            <div className='encomendas-btn'>
-                <span>ENCOMENDAS</span>
             </div>
         </header>
     );

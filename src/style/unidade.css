@@ -1,0 +1,48 @@
+.unidades {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    color: rgb(170, 118, 59);
+    font-size: 2em;
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .div-local {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    color: rgb(170, 118, 59);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-size: 2em;
+  }
+  
+  /* Adaptação para telas menores */
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    p {
+      font-size: 0.9em;
+    }
+  
+    h2 {
+      font-size: 1.2em;
+    }
+  }
+  

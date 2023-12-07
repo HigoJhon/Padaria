@@ -2,6 +2,7 @@ import Hearder from '../components/hearder';
 import Footer from '../components/footer';
 import Inicial from '../components/inicial';
 import Somos from '../components/somos';
+import Unidade from '../components/unidades';
 import '../style/home.css';
 import { useState } from 'react';
 
@@ -17,6 +18,11 @@ const Home = () => {
         if (page === 'somos') {
             return (
                 <Somos />
+            );
+        }
+        if (page === 'unidades') {
+            return (
+                <Unidade />
             );
         }
     };
