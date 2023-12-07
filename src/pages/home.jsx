@@ -3,7 +3,7 @@ import Footer from '../components/footer';
 import Inicial from '../components/inicial';
 import Somos from '../components/somos';
 import '../style/home.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 const Home = () => {
     const [page, setPage] = useState('somos');
@@ -20,9 +20,6 @@ const Home = () => {
             );
         }
     };
-
-    useEffect(() => {
-    }, [page]);
 
     return (
         <div>
